@@ -2,3 +2,189 @@
 wood brown: A89F68;
 army green: 41521F;
 */
+
+body{
+	background-color: pink;
+	
+}
+
+
+/* nav bar */
+.navbar{
+	background-color: transparent;
+	border-bottom: none;
+	margin-bottom: 0;
+	background-image: url(../img/portada.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+.navbar-menu .navbar-toggle {
+	color: white;
+}
+
+.navbar-menu .navbar-right>li>a{
+	color: #fff;
+}
+
+.page-one{
+	border: none;
+	margin-top: 20vh;
+}
+
+#welcome-page h1, #welcome-page p{
+	color: #fff;
+}
+
+#welcome-page button{
+	background-color: #41521F;
+	padding: 10px;
+	border: none;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 5px;
+}
+
+
+/* Seccion 2 */
+.section-two{
+	background-color: #fff;
+	width: 100%;
+	margin:auto;
+	padding-top: 10vh;
+}
+
+.section-two h1, .section-two h2{
+	color: #A89F68;
+	font-weight: 900;
+}
+
+
+/* Seccion 3 */
+.section-3{
+	background-color: #A89F68;
+
+}
+
+.section-3 .row{
+	padding: 5vh;
+}
+
+.section-3 img{
+	box-sizing: border-box;
+	border: 9px solid #fff;
+}
+
+.section-3 h5, .section-3 p{
+	color: #fff;
+}
+
+.section-3 h2{
+	color: #41521F;
+}
+
+
+/* Seccion 4 */
+.section-4{
+	background-image: url(../img/all.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh; 
+}
+
+.section-4 h2, .section-4 h5, .section-4 p{
+	color: #fff;
+}
+
+.help{
+	margin-top: 3vh;
+}
+
+
+/* Seccion 5 */
+.section-5{
+	text-align: center;
+	background-color: #FFFFFF;
+	padding: 5vh;
+}
+
+.section-5 i{
+	font-size: 50px;
+	color: #A89F68;
+}
+
+.section-5 p, .section-5 h2{
+	color: #A89F68;
+}
+
+
+/* Seccion 6 */
+.section-6{
+	text-align: center;
+	background-color: #A89F68;
+	padding: 5vh;
+}
+
+.section-6 h2{
+	color: #41521F;
+}
+
+.section-6 p{
+	font-size: 16px;
+}
+
+p.payment{
+	font-size: 60px;
+	padding-left: 3px;
+}
+
+p.items{
+	padding-top: 5vh;
+}
+
+.payment{
+	display: inline-block;
+	color: #fff;
+}
+
+sup.payment {
+	    top: -2.5em;
+	    font-size: 14px;
+	    padding: 3px;
+}
+
+sub.payment{
+	font-size: 14px;
+}
+
+.access{
+	border-bottom: 1px solid #fff;
+	width: 90%;
+}
+
+.section-6 button{
+	background-color: #41521F;
+	color: #fff;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+
+/* Footer */
+footer{
+	background-color: #41521F;
+	padding-top: 5vh;
+}
+footer p{
+	color: #fff;
+}
+footer a, footer h5{
+	color: #A89F68;
+}
+footer ul{
+	list-style: none;
+}
